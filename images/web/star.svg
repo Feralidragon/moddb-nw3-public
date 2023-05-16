@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="63.999996"
+   viewBox="0 0 8.4666667 16.933332"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient13652">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop13648" />
+      <stop
+         style="stop-color:#252525;stop-opacity:1;"
+         offset="1"
+         id="stop13650" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10931">
+      <stop
+         style="stop-color:#ffe098;stop-opacity:1;"
+         offset="0"
+         id="stop10927" />
+      <stop
+         style="stop-color:#ffa048;stop-opacity:1;"
+         offset="1"
+         id="stop10929" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient10931"
+       id="linearGradient10933"
+       x1="4.2333331"
+       y1="2.1875765"
+       x2="4.2333331"
+       y2="5.7588496"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient13652"
+       id="linearGradient13672"
+       x1="4.2333331"
+       y1="2.1875763"
+       x2="4.2333331"
+       y2="5.7588496"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     style="fill:url(#linearGradient10933);fill-opacity:1;fill-rule:nonzero;stroke:#323232;stroke-width:0.82414;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path485-3"
+     d="M 4.2333332,0.26458311 5.2130977,2.8848029 8.0078387,3.006922 5.8186254,4.7484258 6.5661057,7.4441194 4.2333331,5.9002081 1.9005603,7.4441192 2.6480408,4.7484258 0.45882759,3.0069218 3.2535686,2.8848029 Z"
+     transform="matrix(0.96312526,0,0,0.96312526,0.15610319,9.0055898)" />
+  <path
+     style="fill:url(#linearGradient13672);fill-opacity:1;stroke:#323232;stroke-width:0.82414;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path485"
+     d="M 4.2333332,0.26458311 5.2130977,2.8848029 8.0078387,3.006922 5.8186254,4.7484258 6.5661057,7.4441194 4.2333331,5.9002081 1.9005603,7.4441192 2.6480408,4.7484258 0.45882759,3.0069218 3.2535686,2.8848029 Z"
+     transform="matrix(0.96312525,0,0,0.96312525,0.15610319,0.53892332)" />
+</svg>
