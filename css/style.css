@@ -2538,6 +2538,18 @@ div.column.span-300.last.tabsummary > div:not(#modsinfo, #menureviews, #modsprof
 	display: none;
 }
 
+@keyframes ratingform-flicker-fix {
+	0% {
+		opacity: 0;
+	}
+	99% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 #menureviews form.ratingform div.row.rowextra {
 	position: fixed;
 	z-index: 100;
@@ -2548,6 +2560,7 @@ div.column.span-300.last.tabsummary > div:not(#modsinfo, #menureviews, #modsprof
 	padding: var(--global-form-padding);
 	margin-top: var(--rating-form-margin-top);
 	text-align: left;
+	animation: 2s linear ratingform-flicker-fix;
 }
 
 #menureviews form.ratingform div.row.rowextra::before,
