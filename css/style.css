@@ -1,33 +1,33 @@
 /* URLs */
 :root {
-	--url-image-web-star: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/star.svg);
-	--url-image-web-home_section_00: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_00.jpg);
-	--url-image-web-home_section_01: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_01.jpg);
-	--url-image-web-home_section_02: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_02.jpg);
-	--url-image-web-home_section_03: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_03.jpg);
-	--url-image-web-home_section_04: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_04.jpg);
-	--url-image-web-home_section_05: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_05.jpg);
-	--url-image-web-home_section_06: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_06.jpg);
-	--url-image-web-home_section_07: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_07.jpg);
-	--url-image-web-home_section_08: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_08.jpg);
-	--url-image-web-home_section_09: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_09.jpg);
-	--url-image-web-home_section_10: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_10.jpg);
-	--url-image-web-home_section_11: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_11.jpg);
-	--url-image-web-home_section_12: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_12.jpg);
-	--url-image-web-home_section_13: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_13.jpg);
-	--url-image-web-home_section_14: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_14.jpg);
-	--url-image-web-home_section_15: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_15.jpg);
-	--url-image-web-home_section_16: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_16.jpg);
-	--url-image-web-home_section_17: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_17.jpg);
-	--url-image-web-home_section_18: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_18.jpg);
-	--url-image-web-home_section_19: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_19.jpg);
-	--url-image-web-home_section_20: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_20.jpg);
+	--url-image-web-star: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/star.svg);
+	--url-image-web-home_section_00: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_00.jpg);
+	--url-image-web-home_section_01: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_01.jpg);
+	--url-image-web-home_section_02: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_02.jpg);
+	--url-image-web-home_section_03: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_03.jpg);
+	--url-image-web-home_section_04: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_04.jpg);
+	--url-image-web-home_section_05: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_05.jpg);
+	--url-image-web-home_section_06: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_06.jpg);
+	--url-image-web-home_section_07: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_07.jpg);
+	--url-image-web-home_section_08: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_08.jpg);
+	--url-image-web-home_section_09: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_09.jpg);
+	--url-image-web-home_section_10: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_10.jpg);
+	--url-image-web-home_section_11: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_11.jpg);
+	--url-image-web-home_section_12: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_12.jpg);
+	--url-image-web-home_section_13: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_13.jpg);
+	--url-image-web-home_section_14: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_14.jpg);
+	--url-image-web-home_section_15: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_15.jpg);
+	--url-image-web-home_section_16: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_16.jpg);
+	--url-image-web-home_section_17: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_17.jpg);
+	--url-image-web-home_section_18: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_18.jpg);
+	--url-image-web-home_section_19: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_19.jpg);
+	--url-image-web-home_section_20: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_20.jpg);
 }
 
 /* URLs (4K+) */
 @media only screen and (min-width: 1921px) {
 	:root {
-		--url-image-web-home_section_00: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/images/web/home_section_00_4k.jpg);
+		--url-image-web-home_section_00: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/images/web/home_section_00_4k.jpg);
 	}
 }
 
@@ -1168,7 +1168,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.2/fonts/web/icons.woff2) format('woff2');
+	src: url(https://cdn.jsdelivr.net/gh/Feralidragon/moddb-nw3-public@20230521.3/fonts/web/icons.woff2) format('woff2');
 }
 
 @font-face {
@@ -5354,7 +5354,7 @@ div.column.span-all > div.normalbox.infobox:first-child a:hover {
 }
 
 #downloadsinfo,
-#downloadsinfo *:not(.pagination, .pagination *, hr, p, ol, ul, li, li::marker) {
+#downloadsinfo *:not(.pagination, .pagination *, hr, p, ol, ul, li) {
 	margin: 0;
 	padding: 0;
 }
@@ -5830,8 +5830,8 @@ div.column.span-300-alt.first.tabaddons > #downloadsinfo + .infobox *:not(.pagin
 
 div.column.span-300-alt.first.tabdownloads > #downloadsinfo + .infobox,
 div.column.span-300-alt.first.tabaddons > #downloadsinfo + .infobox,
-div.column.span-300-alt.first.tabdownloads > #downloadsinfo + .infobox *:not(.pagination, .pagination *, hr, p, ol, ul, li, li::marker),
-div.column.span-300-alt.first.tabaddons > #downloadsinfo + .infobox *:not(.pagination, .pagination *, hr, p, ol, ul, li, li::marker) {
+div.column.span-300-alt.first.tabdownloads > #downloadsinfo + .infobox *:not(.pagination, .pagination *, hr, p, ol, ul, li),
+div.column.span-300-alt.first.tabaddons > #downloadsinfo + .infobox *:not(.pagination, .pagination *, hr, p, ol, ul, li) {
 	margin: 0;
 	padding: 0;
 }
