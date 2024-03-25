@@ -5592,7 +5592,7 @@ div.column.span-300-alt.first.tabaddons > div.infobox ~ .infobox .inner {
 }
 
 #downloadsinfo .table div:nth-of-type(1),
-#downloadsinfo .table div.row.rowwide {
+#downloadsinfo .table div.row.csstooltip {
 	display: none;
 }
 
@@ -5753,21 +5753,32 @@ div.column.span-300-alt.first.tabaddons > div.infobox ~ .infobox .inner {
 #downloadsinfo .table div:last-of-type a#downloadmirrorstoggle,
 #downloadsinfo .table div:last-of-type a#downloadmirrorstoggle:visited {
 	display: inline-block;
-	text-decoration: none;
 	box-sizing: border-box;
 	width: var(--download-button-width);
 	height: var(--download-button-height);
 	line-height: var(--download-button-height);
 	border-radius: var(--download-button-border-radius);
-	font-size: var(--download-button-font-size);
-	font-weight: var(--download-button-font-weight);
-	color: var(--download-button-color);
 	border: var(--download-button-border);
 	background: var(--download-button-background);
 	transition:
 		color var(--global-transition-time-out) ease,
 		border var(--global-transition-time-out) ease,
 		background var(--global-transition-time-out) ease;
+}
+
+#downloadsinfo .table div:last-of-type a#downloadmirrorstoggle span,
+#downloadsinfo .table div:last-of-type a#downloadmirrorstoggle:visited span {
+	display: inline;
+}
+
+#downloadsinfo .table div:last-of-type a#downloadmirrorstoggle,
+#downloadsinfo .table div:last-of-type a#downloadmirrorstoggle:visited,
+#downloadsinfo .table div:last-of-type a#downloadmirrorstoggle span,
+#downloadsinfo .table div:last-of-type a#downloadmirrorstoggle:visited span {
+	text-decoration: none;
+	font-size: var(--download-button-font-size);
+	font-weight: var(--download-button-font-weight);
+	color: var(--download-button-color);
 }
 
 #downloadsinfo .table div:last-of-type a#downloadmirrorstoggle:hover {
@@ -5778,6 +5789,11 @@ div.column.span-300-alt.first.tabaddons > div.infobox ~ .infobox .inner {
 		color var(--global-transition-time-in) ease,
 		border var(--global-transition-time-in) ease,
 		background var(--global-transition-time-in) ease;
+}
+
+#downloadsinfo .table div:last-of-type a#downloadmirrorstoggle > span.buttonshadow,
+#downloadsinfo .table div:last-of-type a#downloadmirrorstoggle > span.buttonedge {
+	display: none;
 }
 
 div.column.span-300-alt.first.tabdownloads,
