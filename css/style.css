@@ -2360,7 +2360,6 @@ div.column.span-300.last.tabsummary > div:not(#modsinfo, #menureviews, #modsprof
 #modsinfo .table .row:nth-last-of-type(2),
 #modsinfo .table .row:nth-last-of-type(5),
 #modsinfo .table .row:nth-last-of-type(6),
-#modsinfo .table .row:nth-last-of-type(8),
 #modsprofilestats .table .row:nth-of-type(1),
 #modsprofilestats .table .row:nth-of-type(2),
 #modsprofilestats .table .row:nth-of-type(3),
@@ -2368,8 +2367,12 @@ div.column.span-300.last.tabsummary > div:not(#modsinfo, #menureviews, #modsprof
 	display: block;
 }
 
-#modsinfo .table .row:nth-last-of-type(8) ~ .row:nth-last-of-type(2) {
+#modsinfo .table .row:nth-last-of-type(9) ~ .row:nth-last-of-type(2) {
 	display: none;
+}
+
+#modsinfo .table .row:nth-last-of-type(9) ~ .row:nth-last-of-type(8) {
+	display: block;
 }
 
 #modsinfo .table .row,
@@ -5755,6 +5758,7 @@ div.column.span-300-alt.first.tabaddons > div.infobox ~ .infobox .inner {
 #downloadsinfo .table div:last-of-type a#downloadmirrorstoggle:visited {
 	display: inline-block;
 	box-sizing: border-box;
+	text-align: center;
 	width: var(--download-button-width);
 	height: var(--download-button-height);
 	line-height: var(--download-button-height);
@@ -5776,9 +5780,10 @@ div.column.span-300-alt.first.tabaddons > div.infobox ~ .infobox .inner {
 #downloadsinfo .table div:last-of-type a#downloadmirrorstoggle:visited,
 #downloadsinfo .table div:last-of-type a#downloadmirrorstoggle span,
 #downloadsinfo .table div:last-of-type a#downloadmirrorstoggle:visited span {
+	float: none !important;
 	text-decoration: none;
 	font-size: var(--download-button-font-size);
-	font-weight: var(--download-button-font-weight);
+	font-weight: var(--download-button-font-weight) !important;
 	color: var(--download-button-color);
 }
 
@@ -5790,6 +5795,10 @@ div.column.span-300-alt.first.tabaddons > div.infobox ~ .infobox .inner {
 		color var(--global-transition-time-in) ease,
 		border var(--global-transition-time-in) ease,
 		background var(--global-transition-time-in) ease;
+}
+
+#downloadsinfo .table div:last-of-type a#downloadmirrorstoggle span:first-of-type {
+	display: none;
 }
 
 #downloadsinfo .table div:last-of-type a#downloadmirrorstoggle > span.buttonshadow,
