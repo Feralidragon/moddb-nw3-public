@@ -636,7 +636,6 @@
 	/* article */
 	--article-color: var(--global-color3);
 	--article-font-family: var(--global-font-family);
-	--article-font-weight: 400;
 	--article-font-size: 18px;
 	--article-width: min(100%, 960px);
 	--article-hr-width: calc(100% - 16px);
@@ -701,6 +700,42 @@
 	
 	/* review form */
 	--review-form-rating-select-width: 128px;
+	
+	/* review */
+	--review-margin-top: 24px;
+	--review-width: min(100%, 800px);
+	--review-header-gap: 16px;
+	--review-header-margin-bottom: 24px;
+	--review-header-border-bottom: 1px solid #505050;
+	--review-header-timestamp-color: var(--global-color3);
+	--review-header-timestamp-font-size: 20px;
+	--review-header-timestamp-font-weight: 300;
+	--review-header-icon-min-width: 48px;
+	--review-header-icon-color: var(--global-color3);
+	--review-header-icon-hover-color: var(--global-hover-color3);
+	--review-header-icon-font-family: var(--global-icons-font-family);
+	--review-header-icon-font-size: 22px;
+	--review-header-icon-font-weight: 400;
+	--review-header-icon-char-vote-up: "b";
+	--review-header-icon-char-vote-down: "q";
+	--review-header-icon-label-font-size: 14px;
+	--review-header-icon-label-font-weight: 400;
+	--review-text-font-size: 17px;
+	--review-text-link-color: var(--global-link-color);
+	--review-text-link-hover-color: var(--global-link-hover-color);
+	--review-button-more-text: "See more reviews";
+	--review-button-more-margin-top: 72px;
+	--review-button-more-padding-x: 16px;
+	--review-button-more-padding-y: 12px;
+	--review-button-more-font-size: 16px;
+	--review-button-more-font-weight: var(--global-button1-font-weight);
+	--review-button-more-color: var(--global-button1-color);
+	--review-button-more-border: var(--global-button1-border);
+	--review-button-more-border-radius: 4px;
+	--review-button-more-background: var(--global-button1-background);
+	--review-button-more-hover-color: var(--global-button1-hover-color);
+	--review-button-more-hover-border: var(--global-button1-hover-border);
+	--review-button-more-hover-background: var(--global-button1-hover-background);
 	
 	/* reviews */
 	--reviews-title: var(--header-menu-item-title-reviews);
@@ -5003,6 +5038,138 @@ div.column.span-all > div.normalbox.infobox:first-child a:hover {
 
 
 
+/* Review */
+.tabreviews #readarticle .inner {
+	width: var(--review-width);
+	margin-top: calc(
+		var(--reviews-button-top-margin-top)
+		- var(--global-section-title-line-width)
+		- var(--global-section-title-margin-bottom)
+		+ var(--review-margin-top)
+	);
+}
+
+.tabreviews #readarticle .inner p.introduction {
+	display: flex;
+	gap: var(--review-header-gap);
+	margin-bottom: var(--review-header-margin-bottom);
+	border-bottom: var(--review-header-border-bottom);
+	font-size: 0;
+}
+
+.tabreviews #readarticle .inner p.introduction time {
+	order: -1;
+	display: flex;
+	align-items: flex-end;
+	margin-right: auto;
+	color: var(--review-header-timestamp-color);
+	font-size: var(--review-header-timestamp-font-size);
+	font-weight: var(--review-header-timestamp-font-weight);
+}
+
+.tabreviews #readarticle .inner p.introduction a,
+.tabreviews #readarticle .inner p.introduction a:visited {
+	display: inline-block;
+	text-align: center;
+	text-indent: initial;
+	text-decoration: none;
+	text-transform: lowercase;
+	min-width: var(--review-header-icon-min-width);
+	color: var(--review-header-icon-color);
+	font-size: var(--review-header-icon-label-font-size);
+	font-weight: var(--review-header-icon-label-font-weight);
+	transition: color var(--global-transition-time-out) ease;
+}
+
+.tabreviews #readarticle .inner p.introduction a:hover {
+	color: var(--review-header-icon-hover-color);
+	transition: color var(--global-transition-time-in) ease;
+}
+
+.tabreviews #readarticle .inner p.introduction a::before {
+	display: block;
+	text-transform: none;
+	font-family: var(--review-header-icon-font-family);
+	font-size: var(--review-header-icon-font-size);
+	font-weight: var(--review-header-icon-font-weight);
+}
+
+.tabreviews #readarticle .inner p.introduction a.karmagoodicon::before {
+	content: var(--review-header-icon-char-vote-up);
+}
+
+.tabreviews #readarticle .inner p.introduction a.karmabadicon::before {
+	content: var(--review-header-icon-char-vote-down);
+}
+
+.tabreviews #readarticle #articlecontent p {
+	font-size: var(--review-text-font-size);
+}
+
+.tabreviews #readarticle #articlecontent p a,
+.tabreviews #readarticle #articlecontent p a:visited {
+	color: var(--review-text-link-color);
+	transition: color var(--global-transition-time-out) ease;
+}
+
+.tabreviews #readarticle #articlecontent p a:hover {
+	color: var(--review-text-link-hover-color);
+	transition: color var(--global-transition-time-in) ease;
+}
+
+.tabreviews #readarticle .bodyarticle > .table > .row {
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center !important;
+	margin: 0;
+	padding: 0;
+}
+
+.tabreviews #readarticle .bodyarticle > .table > .row > h4 > a,
+.tabreviews #readarticle .bodyarticle > .table > .row > h4 > a:visited,
+.tabreviews #readarticle .bodyarticle > .table > .row > h4 > a:hover {
+	text-indent: 0;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	margin-top: var(--review-button-more-margin-top);
+}
+
+.tabreviews #readarticle .bodyarticle > .table > .row > h4 > a,
+.tabreviews #readarticle .bodyarticle > .table > .row > h4 > a:visited {
+	display: block;
+	height: var(--review-button-more-font-size);
+	line-height: var(--review-button-more-font-size);
+	padding: var(--review-button-more-padding-y) var(--review-button-more-padding-x);
+	font-size: 0;
+	font-weight: var(--review-button-more-font-weight);
+	color: var(--review-button-more-color);
+	border: var(--review-button-more-border);
+	border-radius: var(--review-button-more-border-radius);
+	background: var(--review-button-more-background);
+	transition:
+		color var(--global-transition-time-out) ease,
+		border var(--global-transition-time-out) ease,
+		background var(--global-transition-time-out) ease;
+}
+
+.tabreviews #readarticle .bodyarticle > .table > .row > h4 > a::before {
+	content: var(--review-button-more-text);
+	font-size: var(--review-button-more-font-size);
+}
+
+.tabreviews #readarticle .bodyarticle > .table > .row > h4 > a:hover {
+	color: var(--review-button-more-hover-color);
+	border: var(--review-button-more-hover-border);
+	background: var(--review-button-more-hover-background);
+	transition:
+		color var(--global-transition-time-in) ease,
+		border var(--global-transition-time-in) ease,
+		background var(--global-transition-time-in) ease;
+}
+
+
+
 /* Reviews */
 .tabreviews .filter,
 .tabreviews.column.last > .pollbox,
@@ -8471,11 +8638,12 @@ ul#imagebox li:not(.previous, .next) img:hover {
 	align-items: center;
 	gap: var(--comments-heading-separator-gap);
 	padding-bottom: var(--comments-heading-padding-bottom);
+	font-size: 0;
 }
 
 #comments .tablecomments .row .content .heading a.author,
 #comments .tablecomments .row .content .heading a.author:visited {
-	order: 1;
+	order: -3;
 	color: var(--comments-heading-author-color);
 	font-size: var(--comments-heading-author-font-size);
 	font-weight: var(--comments-heading-author-font-weight);
@@ -8488,15 +8656,16 @@ ul#imagebox li:not(.previous, .next) img:hover {
 }
 
 #comments .tablecomments .row .content .heading::before {
-	order: 2;
+	order: -2;
 	content: var(--comments-heading-separator-text);
 	color: var(--comments-heading-separator-color);
 	font-size: var(--comments-heading-separator-font-size);
 	font-weight: var(--comments-heading-separator-font-weight);
 }
 
-#comments .tablecomments .row .content .heading time {
-	order: 3;
+#comments .tablecomments .row .content .heading time,
+#comments .tablecomments .row .content .heading a[style] {
+	order: -1;
 	color: var(--comments-heading-timestamp-color);
 	font-size: var(--comments-heading-timestamp-font-size);
 	font-weight: var(--comments-heading-timestamp-font-weight);
